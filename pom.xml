@@ -10,6 +10,8 @@
 		<project.scm.id>github</project.scm.id>
 		<!-- <github.global.server>github</github.global.server> -->
 		<!-- <argLine>-XX:MaxPermSize=512m</argLine> -->
+		<maven.compiler.source>11</maven.compiler.source>
+               <maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<scm>
 		<url>https://github.com/venkatasykam/DevOpsWebApp.git</url>
@@ -205,8 +207,4 @@
 			</build>
 		</profile>
 	</profiles>
-	<properties>
-   <maven.compiler.source>11</maven.compiler.source>
-   <maven.compiler.target>11</maven.compiler.target>
- </properties>
 </project>
